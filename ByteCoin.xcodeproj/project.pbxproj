@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63311DD424636FAC00C9AE04 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63311DD324636FAC00C9AE04 /* Secrets.swift */; };
+		638FBF022418337300777A79 /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638FBF012418337300777A79 /* CoinData.swift */; };
+		638FBF04241839C800777A79 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638FBF03241839C800777A79 /* CoinModel.swift */; };
 		ADA8AC092329367100626376 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8AC082329367100626376 /* AppDelegate.swift */; };
 		ADA8AC0B2329367100626376 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8AC0A2329367100626376 /* SceneDelegate.swift */; };
 		ADA8AC0D2329367100626376 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8AC0C2329367100626376 /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63311DD324636FAC00C9AE04 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		638FBF012418337300777A79 /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+		638FBF03241839C800777A79 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		ADA8AC052329367100626376 /* ByteCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ByteCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA8AC082329367100626376 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADA8AC0A2329367100626376 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +72,7 @@
 				ADA8AC112329367300626376 /* Assets.xcassets */,
 				ADA8AC132329367300626376 /* LaunchScreen.storyboard */,
 				ADA8AC162329367300626376 /* Info.plist */,
+				63311DD324636FAC00C9AE04 /* Secrets.swift */,
 			);
 			path = ByteCoin;
 			sourceTree = "<group>";
@@ -90,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				ADA8AC1F2329398300626376 /* CoinManager.swift */,
+				638FBF012418337300777A79 /* CoinData.swift */,
+				638FBF03241839C800777A79 /* CoinModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -167,7 +176,10 @@
 			files = (
 				ADA8AC202329398300626376 /* CoinManager.swift in Sources */,
 				ADA8AC0D2329367100626376 /* ViewController.swift in Sources */,
+				638FBF022418337300777A79 /* CoinData.swift in Sources */,
 				ADA8AC092329367100626376 /* AppDelegate.swift in Sources */,
+				63311DD424636FAC00C9AE04 /* Secrets.swift in Sources */,
+				638FBF04241839C800777A79 /* CoinModel.swift in Sources */,
 				ADA8AC0B2329367100626376 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,13 +325,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3ECFYJZ64T;
+				DEVELOPMENT_TEAM = 8ZZMQV8UBT;
 				INFOPLIST_FILE = ByteCoin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.appbrewery.ByteCoin;
+				PRODUCT_BUNDLE_IDENTIFIER = co.azuremay.ByteCoin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -331,13 +343,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3ECFYJZ64T;
+				DEVELOPMENT_TEAM = 8ZZMQV8UBT;
 				INFOPLIST_FILE = ByteCoin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.appbrewery.ByteCoin;
+				PRODUCT_BUNDLE_IDENTIFIER = co.azuremay.ByteCoin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
